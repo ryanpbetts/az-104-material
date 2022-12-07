@@ -1,0 +1,8 @@
+az login
+
+az account show
+
+az account list
+
+az account set --subscription "5dde047b-58ae-4ed1-a1d9-3e40229a5108"
+

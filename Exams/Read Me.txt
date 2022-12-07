@@ -1,0 +1,9 @@
+This folder contains an outdated set of practice tests for the AZ-104 exam.
+
+Many of the topics covered in this practice test have now been migrated to specialist exam tracks.
+
+The content contained within the VCE is still valid as a set of practice questions.
+
+The live exam has long since been updated, and memorising this set of questions (620) will result in a guaranteed fail.
+
+Read and understand each question, understand you answers and most importantly research the side notes if you get one wrong. 
