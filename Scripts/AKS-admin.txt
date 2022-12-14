@@ -1,0 +1,12 @@
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+
+kubectl get nodes
+
+kubectl apply -f azure-vote.yaml
+
+
+kubectl get service azure-vote-front --watch
+
+find the IP
+
+

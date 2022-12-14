@@ -1,0 +1,7 @@
+
+
+az aks scale --name rpbaks1704 --resource-group rpb-aks \
+    --node-count $NODE_COUNT
+
+az aks upgrade --name rpbaks1704 --resource-group rpb-aks \
+    --kubernetes-version $KUBERNETS_VERSION
