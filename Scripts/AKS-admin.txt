@@ -1,12 +1,14 @@
-az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+az aks get-credentials --resource-group az104-aks-demo --name cluster-aks
 
 kubectl get nodes
 
 kubectl apply -f azure-vote.yaml
 
-
 kubectl get service azure-vote-front --watch
 
-find the IP
+az aks scale --resource-group az104-aks-demo --name cluster-aks --node-count 3 --nodepool-name agentpool
 
+az aks get-upgrades --resource-group az104-aks-demo --name cluster-aks --output table
+
+az aks upgrade --name cluster-aks --resource-group az104-aks-demo --kubernetes-version 1.25.2
 
